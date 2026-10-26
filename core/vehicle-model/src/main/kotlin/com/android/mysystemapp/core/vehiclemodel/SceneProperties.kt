@@ -1,0 +1,36 @@
+package com.android.mysystemapp.core.vehiclemodel
+
+/** Existing standard property IDs; no vendor properties are created by this app. */
+object SceneProperties {
+    const val DOOR_POS = 373295872
+    const val WINDOW_POS = 322964416
+    const val HEADLIGHTS_SWITCH = 289410576
+    const val FOG_LIGHTS_SWITCH = 289410578
+    const val SEAT_FORE_AFT_POS = 356518789
+    const val SEAT_HEIGHT_POS = 356518795
+    const val SEAT_BACKREST_ANGLE_1_POS = 356518791
+    const val HVAC_SEAT_TEMPERATURE = 356517131
+    const val MIRROR_FOLD = 287312709
+    const val MIRROR_Y_POS = 339741506
+    const val MIRROR_Z_POS = 339741504
+    const val HVAC_POWER_ON = 354419984
+    const val HVAC_DEFROSTER = 320865540
+    const val SEAT_DEPTH_POS = 356518797
+    const val SEAT_TILT_POS = 356518799
+    const val SEAT_BACKREST_ANGLE_2_POS = 356518793
+    const val SEAT_LUMBAR_FORE_AFT_POS = 356518801
+    const val SEAT_LUMBAR_VERTICAL_POS = 356518817
+    const val SEAT_LUMBAR_SIDE_SUPPORT_POS = 356518803
+    const val SEAT_CUSHION_SIDE_SUPPORT_POS = 356518815
+    const val SEAT_HEADREST_HEIGHT_POS_V2 = 356518820
+    const val SEAT_HEADREST_ANGLE_POS = 356518807
+    const val SEAT_HEADREST_FORE_AFT_POS = 356518809
+    const val STEERING_WHEEL_DEPTH_POS = 289410016
+    const val STEERING_WHEEL_HEIGHT_POS = 289410018
+    const val HIGH_BEAM_LIGHTS_SWITCH = 289410577
+    const val HAZARD_LIGHTS_SWITCH = 289410579
+    const val CABIN_LIGHTS_SWITCH = 289410818
+    const val READING_LIGHTS_SWITCH = 356519684
+    const val SEAT_FOOTWELL_LIGHTS_SWITCH = 356518812
+    const val STEERING_WHEEL_LIGHTS_SWITCH = 289410829
+}

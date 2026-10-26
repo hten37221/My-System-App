@@ -1,0 +1,452 @@
+[
+  {
+    "key": "MIRROR_LOCK",
+    "id": 287312708,
+    "type": "Boolean"
+  },
+  {
+    "key": "MIRROR_FOLD",
+    "id": 287312709,
+    "type": "Boolean"
+  },
+  {
+    "key": "WINDOW_LOCK",
+    "id": 320867268,
+    "type": "Boolean"
+  },
+  {
+    "key": "WINDOW_POS",
+    "id": 322964416,
+    "type": "Integer"
+  },
+  {
+    "key": "WINDOW_MOVE",
+    "id": 322964417,
+    "type": "Integer"
+  },
+  {
+    "key": "MIRROR_AUTO_FOLD_ENABLED",
+    "id": 337644358,
+    "type": "Boolean"
+  },
+  {
+    "key": "MIRROR_AUTO_TILT_ENABLED",
+    "id": 337644359,
+    "type": "Boolean"
+  },
+  {
+    "key": "MIRROR_Z_POS",
+    "id": 339741504,
+    "type": "Integer"
+  },
+  {
+    "key": "MIRROR_Y_POS",
+    "id": 339741506,
+    "type": "Integer"
+  },
+  {
+    "key": "DOOR_LOCK",
+    "id": 371198722,
+    "type": "Boolean"
+  },
+  {
+    "key": "DOOR_CHILD_LOCK_ENABLED",
+    "id": 371198723,
+    "type": "Boolean"
+  },
+  {
+    "key": "DOOR_POS",
+    "id": 373295872,
+    "type": "Integer"
+  },
+  {
+    "key": "DOOR_MOVE",
+    "id": 373295873,
+    "type": "Integer"
+  },
+  {
+    "key": "ELECTRONIC_STABILITY_CONTROL_ENABLED",
+    "id": 287310862,
+    "type": "Boolean"
+  },
+  {
+    "key": "AUTOMATIC_EMERGENCY_BRAKING_ENABLED",
+    "id": 287313920,
+    "type": "Boolean"
+  },
+  {
+    "key": "FORWARD_COLLISION_WARNING_ENABLED",
+    "id": 287313922,
+    "type": "Boolean"
+  },
+  {
+    "key": "BLIND_SPOT_WARNING_ENABLED",
+    "id": 287313924,
+    "type": "Boolean"
+  },
+  {
+    "key": "LANE_DEPARTURE_WARNING_ENABLED",
+    "id": 287313926,
+    "type": "Boolean"
+  },
+  {
+    "key": "LANE_KEEP_ASSIST_ENABLED",
+    "id": 287313928,
+    "type": "Boolean"
+  },
+  {
+    "key": "LANE_CENTERING_ASSIST_ENABLED",
+    "id": 287313930,
+    "type": "Boolean"
+  },
+  {
+    "key": "EMERGENCY_LANE_KEEP_ASSIST_ENABLED",
+    "id": 287313933,
+    "type": "Boolean"
+  },
+  {
+    "key": "CRUISE_CONTROL_ENABLED",
+    "id": 287313935,
+    "type": "Boolean"
+  },
+  {
+    "key": "HANDS_ON_DETECTION_ENABLED",
+    "id": 287313942,
+    "type": "Boolean"
+  },
+  {
+    "key": "DRIVER_DROWSINESS_ATTENTION_SYSTEM_ENABLED",
+    "id": 287313945,
+    "type": "Boolean"
+  },
+  {
+    "key": "DRIVER_DROWSINESS_ATTENTION_WARNING_ENABLED",
+    "id": 287313947,
+    "type": "Boolean"
+  },
+  {
+    "key": "DRIVER_DISTRACTION_SYSTEM_ENABLED",
+    "id": 287313949,
+    "type": "Boolean"
+  },
+  {
+    "key": "DRIVER_DISTRACTION_WARNING_ENABLED",
+    "id": 287313951,
+    "type": "Boolean"
+  },
+  {
+    "key": "LOW_SPEED_COLLISION_WARNING_ENABLED",
+    "id": 287313953,
+    "type": "Boolean"
+  },
+  {
+    "key": "CROSS_TRAFFIC_MONITORING_ENABLED",
+    "id": 287313955,
+    "type": "Boolean"
+  },
+  {
+    "key": "LOW_SPEED_AUTOMATIC_EMERGENCY_BRAKING_ENABLED",
+    "id": 287313957,
+    "type": "Boolean"
+  },
+  {
+    "key": "SPEED_LIMIT_WARNING_ENABLED",
+    "id": 555769861,
+    "type": "Boolean"
+  },
+  {
+    "key": "FRONT_PARKING_ASSIST_ENABLED",
+    "id": 555769864,
+    "type": "Boolean"
+  },
+  {
+    "key": "REAR_PARKING_ASSIST_ENABLED",
+    "id": 555769865,
+    "type": "Boolean"
+  },
+  {
+    "key": "SAFE_EXIT_ASSIST_ENABLED",
+    "id": 555769867,
+    "type": "Boolean"
+  },
+  {
+    "key": "LANE_WARNING_SENSITIVITY",
+    "id": 557867008,
+    "type": "Integer"
+  },
+  {
+    "key": "STEERING_INTERVENTION_STRENGTH",
+    "id": 557867009,
+    "type": "Integer"
+  },
+  {
+    "key": "LANE_ALERT_MODE",
+    "id": 557867010,
+    "type": "Integer"
+  },
+  {
+    "key": "COLLISION_WARNING_TIMING",
+    "id": 557867011,
+    "type": "Integer"
+  },
+  {
+    "key": "ACC_ACCELERATION_PROFILE",
+    "id": 557867012,
+    "type": "Integer"
+  },
+  {
+    "key": "SPEED_LIMIT_OFFSET",
+    "id": 557867014,
+    "type": "Integer"
+  },
+  {
+    "key": "DRIVER_WARNING_VOLUME",
+    "id": 557867015,
+    "type": "Integer"
+  },
+  {
+    "key": "PARKING_WARNING_VOLUME",
+    "id": 557867018,
+    "type": "Integer"
+  },
+  {
+    "key": "DRIVER_ASSISTANCE_PROFILE",
+    "id": 557867020,
+    "type": "Integer"
+  },
+  {
+    "key": "HVAC_STEERING_WHEEL_HEAT",
+    "id": 289408269,
+    "type": "Integer"
+  },
+  {
+    "key": "HVAC_TEMPERATURE_DISPLAY_UNITS",
+    "id": 289408270,
+    "type": "Integer"
+  },
+  {
+    "key": "HVAC_DEFROSTER",
+    "id": 320865540,
+    "type": "Boolean"
+  },
+  {
+    "key": "HVAC_SIDE_MIRROR_HEAT",
+    "id": 339739916,
+    "type": "Integer"
+  },
+  {
+    "key": "HVAC_AC_ON",
+    "id": 354419973,
+    "type": "Boolean"
+  },
+  {
+    "key": "HVAC_MAX_AC_ON",
+    "id": 354419974,
+    "type": "Boolean"
+  },
+  {
+    "key": "HVAC_MAX_DEFROST_ON",
+    "id": 354419975,
+    "type": "Boolean"
+  },
+  {
+    "key": "HVAC_RECIRC_ON",
+    "id": 354419976,
+    "type": "Boolean"
+  },
+  {
+    "key": "HVAC_DUAL_ON",
+    "id": 354419977,
+    "type": "Boolean"
+  },
+  {
+    "key": "HVAC_AUTO_ON",
+    "id": 354419978,
+    "type": "Boolean"
+  },
+  {
+    "key": "HVAC_POWER_ON",
+    "id": 354419984,
+    "type": "Boolean"
+  },
+  {
+    "key": "HVAC_AUTO_RECIRC_ON",
+    "id": 354419986,
+    "type": "Boolean"
+  },
+  {
+    "key": "HVAC_FAN_SPEED",
+    "id": 356517120,
+    "type": "Integer"
+  },
+  {
+    "key": "HVAC_FAN_DIRECTION",
+    "id": 356517121,
+    "type": "Integer"
+  },
+  {
+    "key": "HVAC_SEAT_TEMPERATURE",
+    "id": 356517131,
+    "type": "Integer"
+  },
+  {
+    "key": "HVAC_SEAT_VENTILATION",
+    "id": 356517139,
+    "type": "Integer"
+  },
+  {
+    "key": "HVAC_TEMPERATURE_CURRENT",
+    "id": 358614274,
+    "type": "Float"
+  },
+  {
+    "key": "HVAC_TEMPERATURE_SET",
+    "id": 358614275,
+    "type": "Float"
+  },
+  {
+    "key": "STEERING_WHEEL_DEPTH_POS",
+    "id": 289410016,
+    "type": "Integer"
+  },
+  {
+    "key": "STEERING_WHEEL_HEIGHT_POS",
+    "id": 289410018,
+    "type": "Integer"
+  },
+  {
+    "key": "SEAT_BELT_BUCKLED",
+    "id": 354421634,
+    "type": "Boolean"
+  },
+  {
+    "key": "SEAT_EASY_ACCESS_ENABLED",
+    "id": 354421661,
+    "type": "Boolean"
+  },
+  {
+    "key": "SEAT_MEMORY_SELECT",
+    "id": 356518784,
+    "type": "Integer"
+  },
+  {
+    "key": "SEAT_MEMORY_SET",
+    "id": 356518785,
+    "type": "Integer"
+  },
+  {
+    "key": "SEAT_FORE_AFT_POS",
+    "id": 356518789,
+    "type": "Integer"
+  },
+  {
+    "key": "SEAT_BACKREST_ANGLE_1_POS",
+    "id": 356518791,
+    "type": "Integer"
+  },
+  {
+    "key": "SEAT_BACKREST_ANGLE_2_POS",
+    "id": 356518793,
+    "type": "Integer"
+  },
+  {
+    "key": "SEAT_HEIGHT_POS",
+    "id": 356518795,
+    "type": "Integer"
+  },
+  {
+    "key": "SEAT_DEPTH_POS",
+    "id": 356518797,
+    "type": "Integer"
+  },
+  {
+    "key": "SEAT_TILT_POS",
+    "id": 356518799,
+    "type": "Integer"
+  },
+  {
+    "key": "SEAT_LUMBAR_FORE_AFT_POS",
+    "id": 356518801,
+    "type": "Integer"
+  },
+  {
+    "key": "SEAT_LUMBAR_SIDE_SUPPORT_POS",
+    "id": 356518803,
+    "type": "Integer"
+  },
+  {
+    "key": "SEAT_HEADREST_ANGLE_POS",
+    "id": 356518807,
+    "type": "Integer"
+  },
+  {
+    "key": "SEAT_HEADREST_FORE_AFT_POS",
+    "id": 356518809,
+    "type": "Integer"
+  },
+  {
+    "key": "SEAT_CUSHION_SIDE_SUPPORT_POS",
+    "id": 356518815,
+    "type": "Integer"
+  },
+  {
+    "key": "SEAT_LUMBAR_VERTICAL_POS",
+    "id": 356518817,
+    "type": "Integer"
+  },
+  {
+    "key": "SEAT_HEADREST_HEIGHT_POS_V2",
+    "id": 356518820,
+    "type": "Integer"
+  },
+  {
+    "key": "SEAT_OCCUPANCY",
+    "id": 356518832,
+    "type": "Integer"
+  },
+  {
+    "key": "HEADLIGHTS_SWITCH",
+    "id": 289410576,
+    "type": "Integer"
+  },
+  {
+    "key": "HIGH_BEAM_LIGHTS_SWITCH",
+    "id": 289410577,
+    "type": "Integer"
+  },
+  {
+    "key": "FOG_LIGHTS_SWITCH",
+    "id": 289410578,
+    "type": "Integer"
+  },
+  {
+    "key": "HAZARD_LIGHTS_SWITCH",
+    "id": 289410579,
+    "type": "Integer"
+  },
+  {
+    "key": "CABIN_LIGHTS_SWITCH",
+    "id": 289410818,
+    "type": "Integer"
+  },
+  {
+    "key": "STEERING_WHEEL_LIGHTS_SWITCH",
+    "id": 289410829,
+    "type": "Integer"
+  },
+  {
+    "key": "SEAT_FOOTWELL_LIGHTS_SWITCH",
+    "id": 356518812,
+    "type": "Integer"
+  },
+  {
+    "key": "READING_LIGHTS_SWITCH",
+    "id": 356519684,
+    "type": "Integer"
+  },
+  {
+    "key": "VALET",
+    "id": 287312389,
+    "type": "Boolean"
+  }
+]

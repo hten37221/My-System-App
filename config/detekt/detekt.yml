@@ -1,0 +1,24 @@
+naming:
+  FunctionNaming:
+    functionPattern: '[a-zA-Z][a-zA-Z0-9]*'
+
+complexity:
+  CyclomaticComplexMethod:
+    allowedComplexity: 25
+  LongMethod:
+    allowedLines: 150
+  TooManyFunctions:
+    allowedFunctionsPerFile: 30
+    allowedFunctionsPerClass: 30
+    allowedFunctionsPerInterface: 20
+    allowedFunctionsPerObject: 30
+
+exceptions:
+  TooGenericExceptionCaught:
+    active: false
+
+style:
+  MagicNumber:
+    active: false
+  MaxLineLength:
+    maxLineLength: 160

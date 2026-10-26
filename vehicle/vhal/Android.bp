@@ -1,0 +1,31 @@
+package {
+    default_applicable_licenses: ["Android-Apache-2.0"],
+}
+
+filegroup {
+    name: "MySystemAppVehicleControlVhalConfigSource",
+    srcs: ["MySystemAppVehicleControlProperties.json"],
+}
+
+prebuilt_etc {
+    name: "MySystemAppVehicleControlVhalConfig",
+    src: "MySystemAppVehicleControlProperties.json",
+    filename_from_src: true,
+    sub_dir: "automotive/vhalconfig/",
+    vendor: true,
+}
+
+cc_test {
+    name: "MySystemAppVehicleControlVhalConfigTest",
+    vendor: true,
+    defaults: ["VehicleHalDefaults"],
+    srcs: ["VehicleControlConfigTest.cpp"],
+    static_libs: [
+        "VehicleHalJsonConfigLoader",
+        "VehicleHalUtils",
+        "libgtest",
+        "libjsoncpp",
+    ],
+    data: [":MySystemAppVehicleControlVhalConfigSource"],
+    test_suites: ["device-tests"],
+}

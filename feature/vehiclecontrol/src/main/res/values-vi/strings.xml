@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_title">Điều khiển xe</string>
+    <string name="live_connection">Đã kết nối xe</string>
+    <string name="disconnected">Mất kết nối với xe</string>
+    <string name="refresh">Làm mới</string>
+    <string name="uxr">Đỗ xe để điều chỉnh cài đặt. Trạng thái xe vẫn được hiển thị.</string>
+    <string name="all_areas">Tất cả vùng</string>
+    <string name="modes">Chế độ</string>
+    <string name="doors">Cửa &amp; kính</string>
+    <string name="seats">Ghế ngồi</string>
+    <string name="climate">Điều hòa</string>
+    <string name="lights">Đèn xe</string>
+    <string name="assistance">Hỗ trợ lái</string>
+    <string name="exterior">Ngoại thất</string>
+    <string name="left">Trái</string>
+    <string name="right">Phải</string>
+    <string name="cabin">Cabin</string>
+    <string name="model_hint">Chạm chọn · Kéo xoay · Chụm để zoom · Chạm hai lần đặt lại · ? Chưa có dữ liệu</string>
+    <string name="valet">Chế độ Valet</string>
+    <string name="valet_description">Bật cài đặt Valet của xe. Các hạn chế do backend của xe cung cấp.</string>
+    <string name="drive">Chế độ lái</string>
+    <string name="pet">Chế độ thú cưng</string>
+    <string name="no_mode_provider">Xe chưa hỗ trợ: không có backend tương ứng cho chế độ này.</string>
+    <string name="unsupported">Xe không hỗ trợ chức năng này</string>
+    <string name="pending">Đang chờ xe xác nhận…</string>
+    <string name="loading_tab">Đang mở mục…</string>
+    <string name="unavailable">Tạm thời không khả dụng</string>
+    <string name="read_only">Chỉ đọc</string>
+    <string name="park_to_adjust">Đỗ xe để điều chỉnh</string>
+    <string name="info">Chi tiết</string>
+    <string name="close">Đóng</string>
+    <string name="decrease">Giữ −</string>
+    <string name="increase">Giữ +</string>
+    <string name="stop">Dừng</string>
+</resources>

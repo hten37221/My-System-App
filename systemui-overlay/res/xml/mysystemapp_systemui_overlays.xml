@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<overlay>
+    <item
+        target="layout/car_bottom_system_bar"
+        value="@layout/car_bottom_system_bar" />
+    <item
+        target="layout/car_bottom_center_system_bar"
+        value="@layout/car_bottom_center_system_bar" />
+    <!-- IDs looked up by the SystemUI view/controller implementations. -->
+    <item target="id/nav_buttons" value="@id/nav_buttons" />
+    <item target="id/home" value="@id/home" />
+    <item target="id/passenger_home" value="@id/passenger_home" />
+    <item target="id/driver_hvac" value="@id/driver_hvac" />
+    <item target="id/grid_nav" value="@id/grid_nav" />
+    <item target="id/dock" value="@id/dock" />
+    <item target="id/control_center_nav" value="@id/control_center_nav" />
+    <item target="id/passenger_hvac" value="@id/passenger_hvac" />
+    <item target="id/assistant" value="@id/assistant" />
+    <item target="id/lock_screen_nav_buttons" value="@id/lock_screen_nav_buttons" />
+    <item target="id/occlusion_buttons" value="@id/occlusion_buttons" />
+</overlay>

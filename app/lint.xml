@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    The legacy robot/gear bitmap is an intentional product identity and must remain byte-for-byte
+    compatible with the previous release. The icon-shape detector assumes a newly designed adaptive
+    icon, so waive only that detector for this one resource; all other icon/resource checks remain
+    enabled.
+-->
+<lint>
+    <issue id="IconLauncherShape">
+        <ignore path="res/drawable-nodpi/app_icon.png" />
+    </issue>
+</lint>

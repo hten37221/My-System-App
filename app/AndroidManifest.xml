@@ -1,0 +1,36 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-feature android:name="android.hardware.type.automotive" android:required="true" />
+    <uses-permission android:name="android.car.permission.CONTROL_CAR_CLIMATE" />
+    <uses-permission android:name="android.car.permission.CAR_DYNAMICS_STATE" />
+    <uses-permission android:name="android.car.permission.CONTROL_CAR_DYNAMICS_STATE" />
+    <uses-permission android:name="android.car.permission.READ_ADAS_SETTINGS" />
+    <uses-permission android:name="android.car.permission.CONTROL_ADAS_SETTINGS" />
+    <uses-permission android:name="android.car.permission.READ_DRIVER_MONITORING_SETTINGS" />
+    <uses-permission android:name="android.car.permission.CONTROL_DRIVER_MONITORING_SETTINGS" />
+    <uses-permission android:name="android.car.permission.CONTROL_CAR_SEATS" />
+    <uses-permission android:name="android.car.permission.CONTROL_STEERING_WHEEL" />
+    <uses-permission android:name="android.car.permission.CAR_EXTERIOR_LIGHTS" />
+    <uses-permission android:name="android.car.permission.CONTROL_CAR_EXTERIOR_LIGHTS" />
+    <uses-permission android:name="android.car.permission.CONTROL_CAR_INTERIOR_LIGHTS" />
+    <uses-permission android:name="android.car.permission.CONTROL_CAR_DOORS" />
+    <uses-permission android:name="android.car.permission.CONTROL_CAR_WINDOWS" />
+    <uses-permission android:name="android.car.permission.CONTROL_CAR_MIRRORS" />
+    <uses-permission android:name="android.car.permission.CAR_VENDOR_EXTENSION" />
+    <uses-permission android:name="android.car.permission.READ_VALET_MODE" />
+    <uses-permission android:name="android.car.permission.CONTROL_VALET_MODE" />
+    <application android:name=".MySystemApplication" android:allowBackup="false"
+        android:directBootAware="true" android:icon="@drawable/app_icon"
+        android:label="@string/vehicle_app_name" android:supportsRtl="true"
+        android:theme="@style/Theme.MySystemApp">
+        <profileable android:shell="true" />
+        <activity android:name=".MainActivity" android:exported="true"
+            android:configChanges="orientation|screenSize|smallestScreenSize|screenLayout|uiMode"
+            android:launchMode="singleTask">
+            <meta-data android:name="distractionOptimized" android:value="true" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

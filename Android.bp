@@ -1,0 +1,39 @@
+package {
+    default_applicable_licenses: ["Android-Apache-2.0"],
+}
+
+// The application is built with Gradle because its dependency graph uses Compose,
+// Hilt and the convention plugins in build-logic. Run
+// `gradlew :app:stageAospApk` before invoking Soong.
+android_app_import {
+    name: "MySystemApp",
+    apk: "prebuilts/MySystemApp.apk",
+    certificate: "platform",
+    privileged: true,
+    system_ext_specific: true,
+    required: ["allowed_privapp_com.android.mysystemapp"],
+    dex_preopt: {
+        enabled: false,
+    },
+}
+
+prebuilt_etc {
+    name: "allowed_privapp_com.android.mysystemapp",
+    src: "permissions/com.android.mysystemapp.xml",
+    filename_from_src: true,
+    sub_dir: "permissions",
+    system_ext_specific: true,
+}
+
+runtime_resource_overlay {
+    name: "MySystemAppCarSystemUIOverlay",
+    manifest: "systemui-overlay/AndroidManifest.xml",
+    resource_dirs: ["systemui-overlay/res"],
+    certificate: "platform",
+    sdk_version: "current",
+    resource_libs: [
+        "CarSystemUI",
+        "token-shared-lib-prebuilt",
+    ],
+    system_ext_specific: true,
+}

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_title">Vehicle Control</string>
+    <string name="live_connection">Connected to vehicle</string>
+    <string name="disconnected">Vehicle disconnected</string>
+    <string name="refresh">Refresh</string>
+    <string name="uxr">Park the vehicle to adjust settings. Vehicle status remains visible.</string>
+    <string name="all_areas">All areas</string>
+    <string name="modes">Modes</string>
+    <string name="doors">Doors &amp; glass</string>
+    <string name="seats">Seats</string>
+    <string name="climate">Climate</string>
+    <string name="lights">Lighting</string>
+    <string name="assistance">Assistance</string>
+    <string name="exterior">Exterior</string>
+    <string name="left">Left</string>
+    <string name="right">Right</string>
+    <string name="cabin">Cabin</string>
+    <string name="model_hint">Tap to select · Drag to orbit · Pinch to zoom · Double tap to reset · ? Unknown state</string>
+    <string name="valet">Valet Mode</string>
+    <string name="valet_description">Enable the vehicle valet setting. Restrictions are provided by the vehicle backend.</string>
+    <string name="drive">Drive Mode</string>
+    <string name="pet">Pet Mode</string>
+    <string name="no_mode_provider">Not supported by this vehicle: no compatible mode provider is available.</string>
+    <string name="unsupported">Not supported by this vehicle</string>
+    <string name="pending">Waiting for vehicle confirmation…</string>
+    <string name="loading_tab">Opening tab…</string>
+    <string name="unavailable">Temporarily unavailable</string>
+    <string name="read_only">Read only</string>
+    <string name="park_to_adjust">Park to adjust</string>
+    <string name="info">Details</string>
+    <string name="close">Close</string>
+    <string name="decrease">Hold −</string>
+    <string name="increase">Hold +</string>
+    <string name="stop">Stop</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.systemui.mysystemapp.overlay">
+    <application android:hasCode="false" />
+    <overlay
+        android:targetName="CarSystemUI"
+        android:targetPackage="com.android.systemui"
+        android:resourcesMap="@xml/mysystemapp_systemui_overlays"
+        android:isStatic="true"
+        android:priority="120" />
+</manifest>

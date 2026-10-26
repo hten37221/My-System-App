@@ -1,0 +1,253 @@
+{
+    "apiVersion": 2,
+    "properties": [
+        {
+            "property": 557867008,
+            "access": "VehiclePropertyAccess::READ_WRITE",
+            "changeMode": "VehiclePropertyChangeMode::ON_CHANGE",
+            "configString": "my_system_app.v1;symbol=LANE_WARNING_SENSITIVITY;enum=0:low,1:standard,2:high",
+            "defaultValue": {
+                "int32Values": [1]
+            },
+            "areas": [
+                {
+                    "areaId": 0,
+                    "minInt32Value": 0,
+                    "maxInt32Value": 2,
+                    "supportedEnumValues": [0, 1, 2],
+                    "hasSupportedValueInfo": {
+                        "hasMinSupportedValue": true,
+                        "hasMaxSupportedValue": true,
+                        "hasSupportedValuesList": true
+                    }
+                }
+            ]
+        },
+        {
+            "property": 557867009,
+            "access": "VehiclePropertyAccess::READ_WRITE",
+            "changeMode": "VehiclePropertyChangeMode::ON_CHANGE",
+            "configString": "my_system_app.v1;symbol=STEERING_INTERVENTION_STRENGTH;enum=0:light,1:standard,2:strong",
+            "defaultValue": {
+                "int32Values": [1]
+            },
+            "areas": [
+                {
+                    "areaId": 0,
+                    "minInt32Value": 0,
+                    "maxInt32Value": 2,
+                    "supportedEnumValues": [0, 1, 2],
+                    "hasSupportedValueInfo": {
+                        "hasMinSupportedValue": true,
+                        "hasMaxSupportedValue": true,
+                        "hasSupportedValuesList": true
+                    }
+                }
+            ]
+        },
+        {
+            "property": 557867010,
+            "access": "VehiclePropertyAccess::READ_WRITE",
+            "changeMode": "VehiclePropertyChangeMode::ON_CHANGE",
+            "configString": "my_system_app.v1;symbol=LANE_ALERT_MODE;enum=0:visual,1:haptic,2:audible,3:haptic_and_audible",
+            "defaultValue": {
+                "int32Values": [1]
+            },
+            "areas": [
+                {
+                    "areaId": 0,
+                    "minInt32Value": 0,
+                    "maxInt32Value": 3,
+                    "supportedEnumValues": [0, 1, 2, 3],
+                    "hasSupportedValueInfo": {
+                        "hasMinSupportedValue": true,
+                        "hasMaxSupportedValue": true,
+                        "hasSupportedValuesList": true
+                    }
+                }
+            ]
+        },
+        {
+            "property": 557867011,
+            "access": "VehiclePropertyAccess::READ_WRITE",
+            "changeMode": "VehiclePropertyChangeMode::ON_CHANGE",
+            "configString": "my_system_app.v1;symbol=COLLISION_WARNING_TIMING;enum=0:late,1:standard,2:early",
+            "defaultValue": {
+                "int32Values": [1]
+            },
+            "areas": [
+                {
+                    "areaId": 0,
+                    "minInt32Value": 0,
+                    "maxInt32Value": 2,
+                    "supportedEnumValues": [0, 1, 2],
+                    "hasSupportedValueInfo": {
+                        "hasMinSupportedValue": true,
+                        "hasMaxSupportedValue": true,
+                        "hasSupportedValuesList": true
+                    }
+                }
+            ]
+        },
+        {
+            "property": 557867012,
+            "access": "VehiclePropertyAccess::READ_WRITE",
+            "changeMode": "VehiclePropertyChangeMode::ON_CHANGE",
+            "configString": "my_system_app.v1;symbol=ACC_ACCELERATION_PROFILE;enum=0:comfort,1:standard,2:dynamic",
+            "defaultValue": {
+                "int32Values": [1]
+            },
+            "areas": [
+                {
+                    "areaId": 0,
+                    "minInt32Value": 0,
+                    "maxInt32Value": 2,
+                    "supportedEnumValues": [0, 1, 2],
+                    "hasSupportedValueInfo": {
+                        "hasMinSupportedValue": true,
+                        "hasMaxSupportedValue": true,
+                        "hasSupportedValuesList": true
+                    }
+                }
+            ]
+        },
+        {
+            "property": 555769861,
+            "access": "VehiclePropertyAccess::READ_WRITE",
+            "changeMode": "VehiclePropertyChangeMode::ON_CHANGE",
+            "configString": "my_system_app.v1;symbol=SPEED_LIMIT_WARNING_ENABLED;boolean=0:false,1:true",
+            "defaultValue": {
+                "int32Values": [1]
+            },
+            "areas": [
+                {
+                    "areaId": 0
+                }
+            ]
+        },
+        {
+            "property": 557867014,
+            "access": "VehiclePropertyAccess::READ_WRITE",
+            "changeMode": "VehiclePropertyChangeMode::ON_CHANGE",
+            "configString": "my_system_app.v1;symbol=SPEED_LIMIT_OFFSET;unit=km_per_h;step=1",
+            "defaultValue": {
+                "int32Values": [0]
+            },
+            "areas": [
+                {
+                    "areaId": 0,
+                    "minInt32Value": -10,
+                    "maxInt32Value": 10,
+                    "hasSupportedValueInfo": {
+                        "hasMinSupportedValue": true,
+                        "hasMaxSupportedValue": true
+                    }
+                }
+            ]
+        },
+        {
+            "property": 557867015,
+            "access": "VehiclePropertyAccess::READ_WRITE",
+            "changeMode": "VehiclePropertyChangeMode::ON_CHANGE",
+            "configString": "my_system_app.v1;symbol=DRIVER_WARNING_VOLUME;unit=level;step=1",
+            "defaultValue": {
+                "int32Values": [5]
+            },
+            "areas": [
+                {
+                    "areaId": 0,
+                    "minInt32Value": 0,
+                    "maxInt32Value": 10,
+                    "hasSupportedValueInfo": {
+                        "hasMinSupportedValue": true,
+                        "hasMaxSupportedValue": true
+                    }
+                }
+            ]
+        },
+        {
+            "property": 555769864,
+            "access": "VehiclePropertyAccess::READ_WRITE",
+            "changeMode": "VehiclePropertyChangeMode::ON_CHANGE",
+            "configString": "my_system_app.v1;symbol=FRONT_PARKING_ASSIST_ENABLED;boolean=0:false,1:true",
+            "defaultValue": {
+                "int32Values": [1]
+            },
+            "areas": [
+                {
+                    "areaId": 0
+                }
+            ]
+        },
+        {
+            "property": 555769865,
+            "access": "VehiclePropertyAccess::READ_WRITE",
+            "changeMode": "VehiclePropertyChangeMode::ON_CHANGE",
+            "configString": "my_system_app.v1;symbol=REAR_PARKING_ASSIST_ENABLED;boolean=0:false,1:true",
+            "defaultValue": {
+                "int32Values": [1]
+            },
+            "areas": [
+                {
+                    "areaId": 0
+                }
+            ]
+        },
+        {
+            "property": 557867018,
+            "access": "VehiclePropertyAccess::READ_WRITE",
+            "changeMode": "VehiclePropertyChangeMode::ON_CHANGE",
+            "configString": "my_system_app.v1;symbol=PARKING_WARNING_VOLUME;unit=level;step=1",
+            "defaultValue": {
+                "int32Values": [5]
+            },
+            "areas": [
+                {
+                    "areaId": 0,
+                    "minInt32Value": 0,
+                    "maxInt32Value": 10,
+                    "hasSupportedValueInfo": {
+                        "hasMinSupportedValue": true,
+                        "hasMaxSupportedValue": true
+                    }
+                }
+            ]
+        },
+        {
+            "property": 555769867,
+            "access": "VehiclePropertyAccess::READ_WRITE",
+            "changeMode": "VehiclePropertyChangeMode::ON_CHANGE",
+            "configString": "my_system_app.v1;symbol=SAFE_EXIT_ASSIST_ENABLED;boolean=0:false,1:true",
+            "defaultValue": {
+                "int32Values": [1]
+            },
+            "areas": [
+                {
+                    "areaId": 0
+                }
+            ]
+        },
+        {
+            "property": 557867020,
+            "access": "VehiclePropertyAccess::READ_WRITE",
+            "changeMode": "VehiclePropertyChangeMode::ON_CHANGE",
+            "configString": "my_system_app.v1;symbol=DRIVER_ASSISTANCE_PROFILE;enum=0:comfort,1:balanced,2:active,3:custom",
+            "defaultValue": {
+                "int32Values": [1]
+            },
+            "areas": [
+                {
+                    "areaId": 0,
+                    "minInt32Value": 0,
+                    "maxInt32Value": 3,
+                    "supportedEnumValues": [0, 1, 2, 3],
+                    "hasSupportedValueInfo": {
+                        "hasMinSupportedValue": true,
+                        "hasMaxSupportedValue": true,
+                        "hasSupportedValuesList": true
+                    }
+                }
+            ]
+        }
+    ]
+}
